@@ -1,39 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="grid-2">
-        <div class="section-1">
-            <div class="inner">
-             <img src="img/production-manual_BW_544.jpg" alt="publishink book image">
-            </div>
-            <!-- <i class="fas fa-code fa-5x white"></i> -->
-            <h2>Publishink</h2>
-            <p>Bourne, Lincs, UK</p>
-            <a href="https://twitter.com/publishink" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a rel="me" href="https://mastodon.social/@wordius" target="_blank"><i class="fab fa-mastodon"></i></a>
-        </div>
-        <div class="section-2">
-            <h2>About me</h2>
-            <p>I’ve worked in publishing for more than 30 years…</p>
-            
-            <h2>Services</h2>
-            <p>Public relations, editorial management, copyediting and graphic design for publishers of newsletters, books, business reports, magazines and journals</p>
+            <div class="page_lead">
+                <p><strong>wreading, writing, writhmetic…</strong></p>
+                <p>A former journalist and currently editor of DogFriendly, I can now be found mostly tinkering around with web design and working in one of my gardens.</p>
+                <p>I write over <a href="https://wordius.com">here</a></p>
+            </div>        
 
-            <h2>Currently</h2>
-            <p>Editor of DogFriendly magazine</p>
-            
-            <h2>Formerly…</h2>
-            <p>Editor of Wrights Farming Register</p>
-            <p>Production editor of Bike magazine</p>
-            <p>Production editor of Garden Answers magazine</p>
-            <p>Production director of Corporate Location</p>
-            <p>And the list goes on…</p>
-            
-            <h2>Contact</h2>
-            <p><a href="mailto:info&#64;publishink.co.uk">info@publishink.co.uk</a></p>
-            <p><a href="tel:447914400295">+44 (0)7914 400295</a></p>
-        </div>
-    </div>
+            <!--<div>
+                <p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+            </div>-->
 
-<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
 {% endblock content %}

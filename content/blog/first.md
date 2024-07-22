@@ -1,6 +1,9 @@
 +++
-title = "My first post"
-date = 2019-11-27
+title = "First post"
+description = "First post intro"
+date = 2013-03-02
+[taxonomies]
+tags = ["welcome"]
 +++
 
-This is my first blog post.
+I think about this journal as the place that time forgot.
