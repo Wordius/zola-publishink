@@ -25,37 +25,29 @@
 
 <body>
 
-  <div id="wrapper">
-
   <header>
-    <div class="header-primary">
       <a style="width:100%;height:auto;" href="/" class="home-link">
-			  <img src="/img/oval-publishink-grey.png" height="auto" width="250"/>
+			<img src="/img/oval-publishink-grey.png" height="auto" width="250"/>
 		  </a>
-    </div>
 
-    <!--<div class="header-secondary">
-      <nav>
-        <ul class="nav">
+      <nav role="navigation">
+        <ul role="list">
           <li class="nav-item"><a href="/">Home</a></li>
-          <li class="nav-item"><a href="/blog">posts</a></li>
-          <li class="nav-item"><a href="/about">about</a></li>
-          <li class="nav-item"><a href="/contact">contact</a></li>
+          <li class="nav-item"><a href="/notes">Notes</a></li>
+          <li class="nav-item"><a href="/about">About</a></li>
+          <li class="nav-item"><a href="/contact">Contact</a></li>
         </ul>
       </nav>
-    </div>-->
   </header>
 
-  <div class="container">
-    <main id="content_main">
-      {% block content %}
-      {% endblock %}
-    </main><!-- content_main-->
-  </div>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+
+  <hr>
 
 	{% include "partials/footer.html" %}
-
-  </div><!-- wrapper -->
 
 </body>
 

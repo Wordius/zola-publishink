@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+  <section class="post-header">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-date">{{ page.date | date(format="%d %B %Y") }}</p>
+  <p class="post-tags">   
+    {% if page.taxonomies.tags %}
+    tags: 
+    {% for tag in page.taxonomies.tags %}
+    <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+    {%- if not loop.last %}
+      {{ ", " | safe }}
+    {% endif -%}
+    {% endfor %}
+    {% endif %}
+  </p>
+  </section>
+
+  {{ page.content | safe }}
+
+</article>
+
+ {% if page.lower or page.higher %}
+  <div class="post-nav">
+    {% if page.lower %}
+      <small><span class="post-nav-dir"><strong>Previous: </strong></span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a></small>
+    {% endif %}
+    {% if page.higher %}
+      <small><span class="post-nav-dir"><strong>Next: </strong></span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a></small>
+    {% endif %}
+  </div>
+{% endif %}
+
+{% endblock content %}
+

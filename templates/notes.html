@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{{ section.title }}</h1>
+<hr>
+  <!-- PAGINATOR -->
+{% if paginator %}
+    {% for post in paginator.pages %}
+    <section class="postlist-item">
+      <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      <h2><a class="postlist-title" href="{{ post.permalink }}">{{ post.title }}</a></h2>
+      <p class="postlist-description">{{ post.description }}</p>
+    </section>
+    {% endfor %}
+    {% endif %}
+
+<hr>
+
+{% if paginator.previous %}
+  <a href="{{ paginator.previous }}">&lt;</a>
+{% else %}
+  &lt;
+{% endif %}
+<span>{{ paginator.current_index }}</span>
+{% if paginator.next %}
+  <a href="{{ paginator.next }}">&gt;</a>
+{% else %}
+  &gt;
+{% endif %}
+<!-- END PAGINATOR -->
+
+{% endblock content %}
+
