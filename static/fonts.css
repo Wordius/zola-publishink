@@ -65,6 +65,18 @@
        url('/fonts/Archivo-BoldItalic.ttf') format('woff');
   font-weight: 700;
 }
+  @font-face {
+    font-family: IM Fell;
+  src: url('/fonts/IMFellEnglish-Regular.ttf') format('woff2'),
+       url('/fonts/IMFellEnglish-Regular.ttf') format('woff');
+  font-style: normal;
+}
+  @font-face {
+    font-family: IM Fell;
+  src: url('/fonts/IMFellEnglish-Italic.ttf') format('woff2'),
+       url('/fonts/IMFellEnglish-Italic.ttf') format('woff');
+  font-style: italic;
+}
 
   @font-face {
     font-family: alegreyasans;

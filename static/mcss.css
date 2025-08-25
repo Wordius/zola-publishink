@@ -15,9 +15,8 @@
     --underline: solid;
     --focus-outline: 2px solid crimson;
     --focus-outline-offset: 2px;
-    --font: "Lora", "Georgia", serif;
-    --font-family-sans: Archivo, alegreyasans, robotoslab, Helvetica, -apple-system, system-ui, sans-serif;
-    /*--font-variant: "Verdana", system-ui, sans-serif;*/
+    --font: "IM Fell", "Lora", "Georgia", serif;
+    --font-variant: "Verdana", system-ui, sans-serif;
     --font-mono: ui-monospace, sfmono-regular, sf mono, menlo, consolas,
       liberation mono, monospace;
     --font-size: clamp(95%, 80% + 0.5vi, 150%);
@@ -32,7 +31,7 @@
     --pt-small-pica: 0.916em;
     --pt-long-primer: 0.833em;
     --pt-bourgeois: 0.75em;
-    /*font-family: var(--font);*/
+    font-family: var(--font);
     font-size: var(--font-size);
     line-height: var(--leading);
     color-scheme: dark light;
