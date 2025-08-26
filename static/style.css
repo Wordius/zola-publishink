@@ -13,7 +13,7 @@
 
     --gutter: clamp(1rem, 2.5vmax, 1.5rem);
     --line-length: 70ch;
-	--max-width: 768px;
+	--max-width: 620px;
     --font-size: clamp(95%, 80% + 0.5vi, 150%);
     --leading: 1.475;
     --padding-inline: 1rem 2rem;
@@ -144,6 +144,7 @@ nav a {
 	padding-bottom: 3rem;
 }
 .post-nav {
+	font-family: var(--font-family-sans);
 	padding-top: 3rem;
 }
 
@@ -691,9 +692,9 @@ h2 + .header-anchor {
 */
 @media (max-width: 768px) {
 	body {
-		font-size: 1.2rem;
+		/*font-size: 1.3rem;*/
 	}
 	p {
-		font-size: 1.4rem;	
+		/*font-size: 1.4rem;*/	
 	}
 }
