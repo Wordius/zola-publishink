@@ -691,7 +691,7 @@ h2 + .header-anchor {
 */
 @media (max-width: 768px) {
 	body {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 	p {
 		font-size: 1.4rem;	
