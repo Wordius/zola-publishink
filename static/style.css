@@ -89,6 +89,11 @@ h1 {
 	font-size: var(--pt-double-great-primer);
 }
 
+/* HOME */
+
+.homepage {
+	padding-bottom: 3rem;
+}
 /* HEADER */
 
 .banner {
@@ -213,6 +218,16 @@ ul.social li {
 	border-bottom: none;
 }
 
+/* IMAGES */
+
+img {
+	max-inline-size: 100%;
+	height: auto;
+}
+figcaption {
+	font-family: var(--font-family-sans);
+	font-size: var(--pt-long-primer);
+}
 
 /* Global stylesheet
 
