@@ -83,7 +83,7 @@ body {
 }
 header, main, footer {
 	max-width: var(--max-width);
-	padding: 3rem 2rem;
+	padding: 3rem 1rem;
 }
 h1 {
 	font-size: var(--pt-double-great-primer);
