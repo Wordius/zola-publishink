@@ -691,10 +691,10 @@ h2 + .header-anchor {
 }
 */
 @media (max-width: 768px) {
-	body {
-		/*font-size: 1.3rem;*/
+	body, p {
+		font-size: 1.2rem;
 	}
-	p {
-		/*font-size: 1.4rem;*/	
+	nav a {
+		font-size: 1.4rem;
 	}
 }
