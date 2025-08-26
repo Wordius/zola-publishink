@@ -6,7 +6,9 @@ I’ve worked in publishing for more than 30 years…
 
 Currently, I am editor of _DogFriendly_ magazine.
 
-Previously I have been editor of _Wrights Farming Register_, although I remain a shareholder in the company, production editor of _Bike_ magazine, production editor of _Garden Answers_ magazine, production director of _Corporate Location_, an editorial assistant at Beacon Publications and a market research assistant at the Association of Free Newspapers.
+Previously, I have been editor of _Wrights Farming Register_, assistant editor of _Bike_ magazine, production editor of _Garden Answers_ magazine, production director of _Corporate Location_, an editorial assistant at Beacon Publications and a market research assistant at the Association of Free Newspapers.
+
+## Time for a heading
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 

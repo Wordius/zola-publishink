@@ -1,12 +1,38 @@
 @import "fonts.css";
-@import "mcss.css";
+/*@import "mcss.css";*/
 
 /* Defaults */
 
 :root {
-    --font-family-sans: alegreyasans, robotoslab, Helvetica, -apple-system, system-ui, sans-serif;
+    --font-family-sans: Fontin_Sans_49, alegreyasans, robotoslab, Helvetica, -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 	--font-family-serif: "IM Fell", alegreya, Georgia, robotoslab, serif;
+	font-size: 100%;
+
+	--page-padding-inline: calc((100vi - min(var(--line-length), 80vi)) / 2);
+
+    --gutter: clamp(1rem, 2.5vmax, 1.5rem);
+    --line-length: 70ch;
+	--max-width: 768px;
+    --font-size: clamp(95%, 80% + 0.5vi, 150%);
+    --leading: 1.475;
+    --padding-inline: 1rem 2rem;
+    --padding-block: 1rem 2rem;
+    --pt-double-canon: 4.666rem;
+    --pt-canon: 3.999rem;
+    --pt-double-great-primer: 2.999rem;
+    --pt-double-pica: 2rem;
+    --pt-paragon: 1.666rem;
+    --pt-english: 1.166rem;
+    --pt-pica: 1rem;
+    --pt-small-pica: 0.916rem;
+    --pt-long-primer: 0.833rem;
+    --pt-bourgeois: 0.75rem;
+    font-size: var(--font-size);
+    line-height: var(--leading);
+    color-scheme: light;
+    accent-color: crimson;
+	color:#333;
 }
 
 /* Theme colors */
@@ -37,23 +63,123 @@
 		--background-color: #15202b;
 	}
 }
-
-main {
-	padding-top: 0;
+@layer elements {
+	  :where(input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select) {
+    border: 1px inset;
+    border-radius: 0;
+    /* TODO: test this */
+    background: color-mix(in oklch, canvasText 5%, transparent);
+  }
 }
 
-/* Text */
+* {
+	margin: 0 auto;
+}
+html {
+	font-size: 1rem;
+}
+body {
+	padding-top: 0;
+}
+header, main, footer {
+	max-width: var(--max-width);
+	padding: 3rem 2rem;
+}
+h1 {
+	font-size: var(--pt-double-great-primer);
+}
 
+/* HEADER */
+
+.banner {
+	font-family: var(--font-family-serif);
+	font-size: var(--pt-canon);
+	text-decoration: none;
+	color:#C0C0C0;
+	&:hover {
+		color:#333;
+	}
+	/*color:var(--text-color-link);*/
+}
+nav ul {
+		padding-left: 0;
+		padding-top: 3rem;
+}
+nav ul li {
+	display: inline-block;
+	padding-right: .5rem;
+	list-style: none;
+}
+nav a {
+	font-family: var(--font-family-serif);
+	text-decoration: none;
+	padding: 0;
+	border: none;
+	color: #333;
+	&:hover {
+		text-decoration: underline;
+		text-decoration-thickness: 3px;
+		text-decoration-style:wavy;
+		text-decoration-color: #555555;
+		text-underline-offset: 0.6ex;
+	}
+}
+	
+/* MAIN */
+.title {
+	padding-bottom: 3rem;
+}
+.postlist-header {
+	padding-bottom: 3rem;
+}
+.postlist-nav {
+	font-family: var(--font-family-sans);
+	font-size: var(--pt-long-primer);
+}
+.postlist-title a {
+	color: #333;
+	text-decoration: none;
+}
+.post-header {
+	padding-bottom: 3rem;
+}
+.post-nav {
+	padding-top: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-family-serif);
+}
 p {
 	font-family: var(--font-family-sans);
 	font-size: var(--pt-pica);
+	line-height: var(--leading);
 	text-indent: 0;
 	margin-bottom: 1rem;
 }
 p:last-of-type {
 	margin-bottom: 0;
 }
+p a {
+	text-decoration-style:wavy;
+	text-underline-offset: .3ex;
+}
 
+/* POSTLIST */
+
+.postlist-item {
+	margin-bottom: 2rem;
+}
+h2.postlist-title {
+	margin-top: .5rem;
+}
+.postlist-date, .post-date {
+	font-family: va(--font-family-sans);
+	font-size: var(--pt-long-primer);
+	letter-spacing: 0.3ch;
+	text-transform: uppercase;
+	color: crimson;
+}
 /* POST HEADER */
 
 .post-header h1 {
@@ -63,7 +189,6 @@ p:last-of-type {
 /* FOOTER */
 
 footer {
-	padding-top: 0;
 	text-align: center;
 }
 footer p {
@@ -539,7 +664,7 @@ blockquote p:last-child {
 	color: #555555;
 }
 
-/* Direct Links / Markdown Headers
+/* Direct Links / Markdown Headers 
 
 .header-anchor {
 	text-decoration: none;
@@ -563,13 +688,12 @@ a[href].header-anchor:focus,
 h2 + .header-anchor {
 	font-size: 1.5em;
 }
-
-@media (max-width: 768x) {
-
-	.home-link {
-		margin-right: 0;
-	}	
-	#site-footer {
-			flex-direction: column;
-		}   
-	}*/
+*/
+@media (max-width: 768px) {
+	body {
+		font-size: 1.4rem;
+	}
+	p {
+		font-size: 1.4rem;	
+	}
+}

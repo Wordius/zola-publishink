@@ -14,21 +14,17 @@
 
   <meta name="description" content="{{ config.description }}">
   
-  <meta property="fediverse:creator" content="@publishink@mastodon.social" />
-
   <link rel="alternate" href="/rss.xml" type="application/rss+xml">
 
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">-->
 
 </head>
 
 <body>
 
   <header>
-      <a style="width:100%;height:auto;" href="/" class="home-link">
-			<img src="/img/oval-publishink-grey.png" height="auto" width="250"/>
-		  </a>
+      <a class="banner" href="/" class="home-link">publishink.</a>
 
       <nav role="navigation">
         <ul role="list">
@@ -40,14 +36,10 @@
       </nav>
   </header>
 
-  <hr>
-  
   <main>
     {% block content %}
     {% endblock %}
   </main>
-
-  <hr>
 
 	{% include "partials/footer.html" %}
 

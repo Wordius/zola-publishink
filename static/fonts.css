@@ -26,45 +26,35 @@
   }
 
 @font-face {
-  font-family: Archivo;
-  src: url('/fonts/Archivo-Regular.ttf') format('woff2'),
-       url('/fonts/Archivo-Regular.ttf') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Archivo;
-  src: url('/fonts/Archivo-Italic.ttf') format('woff2'),
-       url('/fonts/Archivo-Italic.ttf') format('woff');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: Archivo;
-  src: url('/fonts/Archivo-SemiBold.ttf') format('woff2'),
-       url('/fonts/Archivo-SemiBold.ttf') format('woff');
-  font-weight: 600;
-}
-@font-face {
-  font-family: Archivo;
-  src: url('/fonts/Archivo-SemiBoldItalic.ttf') format('woff2'),
-       url('/fonts/Archivo-SemiBoldItalic.ttf') format('woff');
-  font-weight: 600;
-  font-style: italic;
-}
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_R_45b.oft') format('woff2'),
+          url('/fonts/Fontin_Sans_R_45b.otf') format('woff');
+      font-style: normal;
+   }
+   
+   @font-face {
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_I_45b.otf') format('woff2'),
+          url('/fonts/Fontin_Sans_I_45b.otf') format('woff');
+     font-style: italic;
+   }
+   
+   @font-face {
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Font_Sans_B_45Bb.otf') format('woff2'),
+          url('/fonts/Fontin_Sans_B_45b.otf') format('woff');
+     font-style: normal;
+     font-weight: 700;
+   }
+   
+   @font-face {
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_BI_45b.ttf') format('woff2'),
+          url('/fonts/Fontin_Sans_BI_45b.ttf') format('woff');
+      font-style: italic;
+     font-weight: 700;
+   }
 
-@font-face {
-  font-family: Archivo;
-  src: url('/fonts/Archivo-Bold.ttf') format('woff2'),
-       url('/fonts/Archivo-Bold.ttf') format('woff');
-  font-weight: 700;
-}
-@font-face {
-  font-family: Archivo;
-  src: url('/fonts/Archivo-BoldItalic.ttf') format('woff2'),
-       url('/fonts/Archivo-BoldItalic.ttf') format('woff');
-  font-weight: 700;
-}
   @font-face {
     font-family: IM Fell;
   src: url('/fonts/IMFellEnglish-Regular.ttf') format('woff2'),
@@ -117,3 +107,38 @@
   font-weight: 900;
   font-style: italic;
 }
+/*
+| TEXT STYLE   | POINT SIZE          | REM SIZE |
+| ------------ | ------------------- | -------- |
+| Display      | Double Canon        | 4.666    |
+| Heading 1    | Canon               | 3.999    |
+| Heading 2    | Double Great Primer | 2.999    |
+| Heading 3    | Double English      | 2.333    |
+| Heading 4    | Double Pica         | 2.000    |
+| Heading 5    | Paragon             | 1.666    |
+| Heading 6    | English             | 1.166    |
+| Body         | Pica                | 1.000    |
+| Fine Print 1 | Small Pica          | 0.916    |
+| Fine Print 2 | Bourgeois           | 0.750    |
+
+    --gutter: clamp(1rem, 2.5vmax, 1.5rem);
+    --line-length: 70ch;
+    --font-size: clamp(95%, 80% + 0.5vi, 150%);
+    --leading: 1.475;
+    --padding-inline: 1rem 2rem;
+    --padding-block: 1rem 2rem;
+    --pt-double-canon: 4.666rem;
+    --pt-canon: 3.999rem;
+    --pt-double-great-primer: 2.999rem;
+    --pt-double-pica: 2rem;
+    --pt-paragon: 1.666rem;
+    --pt-english: 1.166rem;
+    --pt-pica: 1rem;
+    --pt-small-pica: 0.916rem;
+    --pt-long-primer: 0.833rem;
+    --pt-bourgeois: 0.75rem;
+    font-size: var(--font-size);
+    line-height: var(--leading);
+    color-scheme: light;
+    accent-color: crimson;
+*/
