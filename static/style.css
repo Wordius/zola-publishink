@@ -94,7 +94,12 @@ h1 {
 .homepage {
 	padding-bottom: 3rem;
 }
+.homepage-text p {
+	font-size: var(--pt-paragon);
+}
+
 /* HEADER */
+
 
 .banner {
 	font-family: var(--font-family-serif);
@@ -117,6 +122,7 @@ nav ul li {
 }
 nav a {
 	font-family: var(--font-family-serif);
+	font-size: var(--pt-english);
 	text-decoration: none;
 	padding: 0;
 	border: none;
