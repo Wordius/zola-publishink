@@ -82,9 +82,13 @@ html {
 body {
 	padding-top: 0;
 }
-header, main, footer {
+header {
 	max-width: var(--max-width);
 	padding: 3rem 1rem;
+}
+main, footer {
+	max-width: var(--max-width);
+	padding: 0rem 1rem 3rem;
 }
 h1 {
 	font-size: var(--pt-double-great-primer);
@@ -163,7 +167,7 @@ nav a {
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-serif);
 }
-p {
+p, ul, ol {
 	font-family: var(--font-family-sans);
 	font-size: var(--pt-pica);
 	line-height: var(--leading);
