@@ -3,8 +3,8 @@ title = "About"
 +++
 
 <section class="page-image">
-    <img src="/img/book-production-manual-norm.webp">
-    <figcaption>If you’re wondering why the old image, it’s because I produced the Print & Production Manual all the way back in 2005. Still, the treatment is a bit much really</figcaption>
+    <img src="/img/book-production-manual-orig.webp">
+    <figcaption>The Print & Production Manual, circa 2005. Designed and produced</figcaption>
 </section>
 
 I’ve worked in publishing for more than 30 years…
@@ -12,6 +12,8 @@ I’ve worked in publishing for more than 30 years…
 Currently, I am editor of _DogFriendly_ magazine.
 
 Previously, I have been editor of _Wrights Farming Register_, assistant editor of _Bike_ magazine, production editor of _Garden Answers_ magazine, production director of _Corporate Location_, an editorial assistant at Beacon Publications and a market research assistant at the Association of Free Newspapers.
+
+<em>Corporate Location</em>, <em>MCN</em>, <em>Bike</em>, <em>RiDE</em>, <em>Golf World</em>, <em>Today’s Golfer</em>, <em>Octane</em>, <em>Classic Car</em>, <em>Wrights Farming Register</em>
 
 ## Time for a heading
 

@@ -1,5 +1,5 @@
+@import "reset.css";
 @import "fonts.css";
-/*@import "mcss.css";*/
 
 /* Defaults */
 
@@ -202,7 +202,7 @@ h2.postlist-title {
 /* FOOTER */
 
 footer {
-	text-align: center;
+	/*text-align: center;*/
 }
 footer p {
 	font-family: var(--font-family-sans);
