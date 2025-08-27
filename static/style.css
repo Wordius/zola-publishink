@@ -18,6 +18,7 @@
     --leading: 1.475;
     --padding-inline: 1rem 2rem;
     --padding-block: 1rem 2rem;
+	--font-italic: Georgia;
     --pt-double-canon: 4.666rem;
     --pt-canon: 3.999rem;
     --pt-double-great-primer: 2.999rem;
@@ -91,15 +92,15 @@ h1 {
 
 /* HOME */
 
-.homepage {
-	padding-bottom: 3rem;
-}
 .homepage-text p {
+	font-family: var(--font-family-serif);
 	font-size: var(--pt-paragon);
+}
+.homepage-text p em {
+	font-family: var(--font-italic);
 }
 
 /* HEADER */
-
 
 .banner {
 	font-family: var(--font-family-serif);
@@ -233,6 +234,9 @@ img {
 figcaption {
 	font-family: var(--font-family-sans);
 	font-size: var(--pt-long-primer);
+}
+.page-image {
+	padding-bottom: 3rem;
 }
 
 /* Global stylesheet

@@ -2,6 +2,11 @@
 title = "About"
 +++
 
+<section class="page-image">
+    <img src="/img/book-production-manual-norm.webp">
+    <figcaption>If you’re wondering why the old image, it’s because I produced the Print & Production Manual all the way back in 2005. Still, the treatment is a bit much really</figcaption>
+</section>
+
 I’ve worked in publishing for more than 30 years…
 
 Currently, I am editor of _DogFriendly_ magazine.
