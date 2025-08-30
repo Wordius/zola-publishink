@@ -1,4 +1,47 @@
+
 @font-face {
+    font-family: Archivo;
+    src: url('/fonts/Archivo-Regular.ttf') format('woff2'),
+         url('/fonts/Archivo-Regular.ttf') format('woff');
+         font-style: normal;
+         font-weight: 400;
+  }
+@font-face {
+    font-family: Archivo;
+    src: url('/fonts/Archivo-italic.ttf') format('woff2'),
+         url('/fonts/Archivo-italic.ttf') format('woff');
+         font-style: italic;
+         font-weight: 400;
+  }
+@font-face {
+    font-family: Archivo;
+    src: url('/fonts/Archivo-Bold.ttf') format('woff2'),
+         url('/fonts/Archivo-Bold.ttf') format('woff');
+         font-style: normal;
+         font-weight: 700;
+  }
+@font-face {
+    font-family: Archivo;
+    src: url('/fonts/Archivo-BoldItalic.ttf') format('woff2'),
+         url('/fonts/Archivo-BoldItalic.ttf') format('woff');
+         font-style: italic;
+         font-weight: 700;
+  }
+@font-face {
+    font-family: Archivo;
+    src: url('/fonts/Archivo-SemiBold.ttf') format('woff2'),
+         url('/fonts/Archivo-SemiBold.ttf') format('woff');
+         font-style: normal;
+         font-weight: 600;
+  }
+@font-face {
+    font-family: Archivo;
+    src: url('/fonts/Archivo-SemiBoldItalic.ttf') format('woff2'),
+         url('/fonts/Archivo-SemiBoldItalic.ttf') format('woff');
+         font-style: normal;
+         font-weight: 600;
+  }
+  @font-face {
     font-family: alegreya;
     src: url('/fonts/alegreya-regular.ttf') format('woff2'),
          url('/fonts/alegreya-regular.ttf') format('woff');

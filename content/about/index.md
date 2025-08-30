@@ -2,23 +2,14 @@
 title = "About"
 +++
 
-<section class="page-image">
-    <img src="/img/book-production-manual-orig.webp">
-    <figcaption>The Print & Production Manual, circa 2005. Designed and produced</figcaption>
-</section>
+{{ image(path="/img/book-production-manual-orig.webp", caption="The Print & Production Manual, 10th Edition, 2005. I designed and produced this tome while contracted to work for Pira, The Print Industry Research Association") }}
 
-I’ve worked in publishing for more than 30 years…
+The world has changed since I started out in publishing – back in 1985, to be exact. But throughout that time, I’ve been fortunate enough to live my dream working as a journalist and helping clients along the way.
 
-Currently, I am editor of _DogFriendly_ magazine.
+That dream led me down a varied path. I’ve been a designer, journalist, editor, publisher, website creator, and even a ‘chief speed tester’. Since going freelance in 2002, I’ve enjoyed working with a broad range of clients, including the Invest in Britain Bureau (then part of the DTI), Pira, Bauer Media, Haymarket Publications, Beyond Behaviour, Euromoney, Mark Allen Publishing, Octane Media, Kelsey Media, Bennetts Insurance – and, yes, even Tony the electrician.
 
-Previously, I have been editor of _Wrights Farming Register_, assistant editor of _Bike_ magazine, production editor of _Garden Answers_ magazine, production director of _Corporate Location_, an editorial assistant at Beacon Publications and a market research assistant at the Association of Free Newspapers.
+Of all the titles I’ve worked on, _Bike_ magazine stands out. It gave me the most joy, the chance to travel, and the opportunity to meet some remarkable people. Highlights included snowmobiling in Revelstoke, Canada; testing Suzuki’s V-Strom at its launch in Cape Town; and (disastrously) trying to ride the European champion’s funny bike at Shakespeare County Raceway in Warwickshire.
 
-<em>Corporate Location</em>, <em>MCN</em>, <em>Bike</em>, <em>RiDE</em>, <em>Golf World</em>, <em>Today’s Golfer</em>, <em>Octane</em>, <em>Classic Car</em>, <em>Wrights Farming Register</em>
+These days, I’m the editor of _DogFriendly_ magazine, which caters to people who love travelling with their dogs. I also built [Nopy](https://nopy.co.uk/), a website for a local pylon protest group, and when I’m not writing, you’ll likely find me gardening.
 
-## Time for a heading
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor.
-
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+I’m also a keen [watch collector](https://wordius.com/journal/watches/), enjoy writing in Markdown, and I love typography, the art of arranging type.

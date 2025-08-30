@@ -13,7 +13,7 @@
 
     --gutter: clamp(1rem, 2.5vmax, 1.5rem);
     --line-length: 70ch;
-	--max-width: 620px;
+	--max-width: 38rem;
     --font-size: clamp(95%, 80% + 0.5vi, 150%);
     --leading: 1.475;
     --padding-inline: 1rem 2rem;
@@ -93,6 +93,9 @@ main, footer {
 h1 {
 	font-size: var(--pt-double-great-primer);
 }
+em {
+	font-family: var(--font-italic);
+}
 
 /* HOME */
 
@@ -113,7 +116,13 @@ h1 {
 	color:#C0C0C0;
 	&:hover {
 		color:#333;
-	}
+}
+span.banner-item {
+	font-family: var(--font-family-serif);
+	font-size: var(--pt-canon);
+	color: crimson;
+}
+	
 	/*color:var(--text-color-link);*/
 }
 nav ul {
@@ -177,9 +186,9 @@ p, ul, ol {
 p:last-of-type {
 	margin-bottom: 0;
 }
-p a {
+p a, ul a {
 	text-decoration-style:wavy;
-	text-underline-offset: .3ex;
+	text-underline-offset: .5ex;
 }
 
 /* POSTLIST */
@@ -205,12 +214,10 @@ h2.postlist-title {
 
 /* FOOTER */
 
-footer {
-	/*text-align: center;*/
-}
 footer p {
 	font-family: var(--font-family-sans);
 	font-size: var(--pt-small-pica);
+	margin-bottom: 0.5rem;
 }
 footer ul {
 	display: inline-block;
