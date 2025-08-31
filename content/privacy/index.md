@@ -22,4 +22,4 @@ You may occasionally come across links to Amazon. These may be affiliate links, 
 
 Emails are kept private, especially when sent encrypted, but I may want to quote something you have written on occasion. If that happens, I’ll ask you. If you have emailed me about something you think I got wrong, I will ask if it’s okay to use your name to credit the correction.
 
-I take your privacy and confidentiality seriously. If you any comments, see my [contact page](/contact) for how to get in touch.
+I take your privacy and confidentiality seriously. If you have any comments, see my [contact page](/contact) for how to get in touch.
