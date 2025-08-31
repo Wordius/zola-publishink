@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-{{ image(path="/img/book-production-manual-orig.webp", caption="The Print & Production Manual, 10th Edition, 2005. I designed and produced this tome while contracted to work for Pira, The Print Industry Research Association") }}
+{{ image(path="/img/book-production-manual-orig.webp", caption="The Print & Production Manual, 10th Edition, 2005. Designed and produced while contracted to work for Pira, The Print Industry Research Association") }}
 
 The world has changed since I started out in publishing – back in 1985, to be exact. But throughout that time, I’ve been fortunate enough to live my dream working as a journalist and helping clients along the way.
 

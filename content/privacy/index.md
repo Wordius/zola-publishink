@@ -2,13 +2,13 @@
 title = "Privacy"
 +++
 
-_This pages was last updated on 31 August 2025_.
+_This page was last updated on 31 August 2025_.
 
 No legalese here. I am not a solicitor (read lawyer), nor am I involved in the legal profession in any other way. 
 
 ## Your data
 
-I tried to avoid using any Javascript at all, but this site serves up one piece of JS from Usermaven. User data protection is ensured through [Usermaven’s stringent, privacy-first policies](https://usermaven.com/privacy). 
+I tried to avoid using any Javascript at all, but this site serves up one piece of JS from Usermaven. User data protection is ensured through Usermaven’s stringent, [privacy-first policies](https://usermaven.com/privacy). 
 
 ## Web fonts
 

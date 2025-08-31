@@ -727,7 +727,7 @@ h2 + .header-anchor {
 }
 */
 @media (max-width: 768px) {
-	body, p {
+	body, p, ol, ul {
 		font-size: 1.2rem;
 	}
 	nav a {
