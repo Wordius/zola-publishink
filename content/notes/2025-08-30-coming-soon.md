@@ -5,4 +5,4 @@ date = 2025-08-30
 tags = ["Welcome"]
 +++
 
-I promise.
+Promise.

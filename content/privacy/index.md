@@ -8,7 +8,7 @@ No legalese here. I am not a solicitor (read lawyer), nor am I involved in the l
 
 ## Your data
 
-I tried to avoid using any Javascript at all, but this site serves up one piece of JS from Usermaven. User data protection is ensured through Usermaven’s stringent, [privacy-first policies](https://usermaven.com/privacy). 
+I tried to avoid using any Javascript at all, but this site serves up one piece of JS from Usermaven. User data protection is ensured through Usermaven’s stringent, [privacy-first policies](https://usermaven.com/privacy). Usermaven uses cookie-less tracking to prioritise user privacy.
 
 ## Web fonts
 
