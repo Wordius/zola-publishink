@@ -12,6 +12,6 @@ If there’s one piece of advice I would give to anyone who writes – and that 
 
 Butterick is a designer, writer, typographer, programmer, a lawyer, and one smart cookie. In addition to _Practical Typography_, the web book which gives the above advice, he has written _Typography for Lawyers_ and _Beautiful Racket_. They are both recommended reading, and not just for lawyers.
 
-Where most of the advice in _Typography for Lawyers_ relates to that profession, there is some useful advice that applies to anyone. _Beautiful Racket_, on the other hand, serves as an introduction to programming, which is what ‘Racket’ is, after all: a language-oriented progamming language.
+Where most of the advice in _Typography for Lawyers_ relates to that profession, there are some useful nuggets that apply to anyone. _Beautiful Racket_, on the other hand, serves as an introduction to programming, which is what ‘Racket’ is, after all: a language-oriented progamming language.
 
 Butterick is also the designer of a number of fine fonts, including Valkyrie, Century Supra, Concourse and Hermes Maia. They are available from [MB Fonts](https://practicaltypography.com/mb-fonts.html), along with the rest of his designs.
