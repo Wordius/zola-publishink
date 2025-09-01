@@ -1,26 +1,32 @@
 {% extends "base.html" %}
 
 {% block content %}
+<hr>
 <article>
   <section class="post-header">
   <small class="post-date">{{ page.date | date(format="%d %B %Y") }}</small>
   <h1 class="post-title">{{ page.title }}</h1>
-  <p class="post-tags">   
-    {% if page.taxonomies.tags %}
-    {% for tag in page.taxonomies.tags %}
-    <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
-    {%- if not loop.last %}
-      {{ ", " | safe }}
-    {% endif -%}
-    {% endfor %}
-    {% endif %}
-  </p>
-  </section>
+</section>
 
   {{ page.content | safe }}
 
+<section class="post-meta">
+    <p class="post-tags">   
+    {% if page.taxonomies.tags %}
+    Tagged:
+    {% for tag in page.taxonomies.tags %}
+    <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+    <span aria-hidden="true">
+    {%- if not loop.last %}
+      {{ "//" | safe }}
+    {% endif -%}
+    </span>
+    {% endfor %}
+    {% endif %}
+  </p>
+</section>
 </article>
-
+<hr>
  {% if page.lower or page.higher %}
   <div class="post-nav">
     {% if page.lower %}
@@ -30,6 +36,7 @@
       <small><span class="post-nav-dir"><strong>Next: </strong></span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a></small>
     {% endif %}
   </div>
+<hr>
 {% endif %}
 
 {% endblock content %}

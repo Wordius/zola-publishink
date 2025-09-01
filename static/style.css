@@ -92,9 +92,22 @@ main, footer {
 }
 h1 {
 	font-size: var(--pt-double-great-primer);
+	line-height: 1.2;
 }
 em {
 	font-family: var(--font-italic);
+}
+blockquote {
+	padding: 1rem 0 2rem 1rem; 
+}
+blockquote p {
+	font-size: 120%;
+}
+blockquote p:last-of-type {
+	margin: 0;
+}
+hr.rule {
+ margin-top: 3rem;
 }
 
 /* HOME */
@@ -102,6 +115,7 @@ em {
 .homepage-text p {
 	font-family: var(--font-family-serif);
 	font-size: var(--pt-paragon);
+	line-height: 1.4;
 }
 .homepage-text p em {
 	font-family: var(--font-italic);
@@ -170,7 +184,7 @@ nav a {
 }
 .post-nav {
 	font-family: var(--font-family-sans);
-	padding-top: 3rem;
+	padding: 3rem 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -183,11 +197,17 @@ p, ul, ol {
 	text-indent: 0;
 	margin-bottom: 1rem;
 }
-p:last-of-type {
-	margin-bottom: 0;
+.post-meta {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
 }
-p a, ul a {
-	text-decoration-style:wavy;
+
+p a, ul a, ol a {
+	color: crimson;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 	text-underline-offset: .5ex;
 }
 
@@ -206,10 +226,27 @@ h2.postlist-title {
 	text-transform: uppercase;
 	color: crimson;
 }
+.post-meta p {
+	margin-bottom: 0;
+	padding-bottom: .5rem;
+}
+
 /* POST HEADER */
 
 .post-header h1 {
+	padding-top: 1rem;
 	margin-top: 0;
+}
+a.post-tag {
+	color: crimson;
+}
+span[aria-hidden="true"] {
+	opacity: 0.4;
+	padding-inline: 0.1ch;
+}
+.term-title {
+	text-transform: capitalize;
+	padding-bottom: 3rem;
 }
 
 /* FOOTER */
@@ -218,6 +255,12 @@ footer p {
 	font-family: var(--font-family-sans);
 	font-size: var(--pt-small-pica);
 	margin-bottom: 0.5rem;
+}
+footer a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 footer ul {
 	display: inline-block;

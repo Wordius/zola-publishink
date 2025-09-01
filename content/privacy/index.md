@@ -8,7 +8,7 @@ No legalese here. I am not a solicitor (read lawyer), nor am I involved in the l
 
 ## Your data
 
-I tried to avoid using any Javascript at all, but this site serves up one piece of JS from Usermaven. User data protection is ensured through Usermaven’s stringent, [privacy-first policies](https://usermaven.com/privacy). Usermaven uses cookie-less tracking to prioritise user privacy.
+I tried to avoid using any Javascript at all, but this site serves up one piece of JS from Usermaven. User data protection is ensured through Usermaven’s stringent, [privacy-first policies](https://usermaven.com/privacy). The company uses cookie-less tracking to prioritise user privacy.
 
 ## Web fonts
 
@@ -16,7 +16,7 @@ I use web fonts. All font files are served from this domain and there is no thir
 
 ## Links
 
-You may occasionally come across links to Amazon. These may be affiliate links, they may not. All I can say is that I have to keep this blog paid for some how and Amazon’s model suited me at the time.
+You may occasionally come across links to Amazon and elsewhere. These may be affiliate links, they may not. Affiliate links help cover the costs of maintaining this site. Only help, mind you.
 
 ## Email
 
