@@ -6,7 +6,7 @@ title = "Publishink"
 
 author = "Jeff Porter"
 
-description = "Writing, editorial management, and web and graphic design for print"
+description = "Writing, editorial management, and publication and web design"
 
 # Compile all Sass files in the sass directory
 
@@ -21,7 +21,7 @@ feed_filenames = ["rss.xml"]
 # Taxonomies
 
 taxonomies = [
-    {name = "tags", paginate_by = 3, rss = true },
+    { name = "tags", paginate_by = 10, feed = true },
 ]
 
 # Build a search index to be used later on by a JavaScript library

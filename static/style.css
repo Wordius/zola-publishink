@@ -123,13 +123,14 @@ hr.rule {
 
 /* HEADER */
 
-.banner {
+header a.banner {
 	font-family: var(--font-family-serif);
 	font-size: var(--pt-canon);
 	text-decoration: none;
 	color:#C0C0C0;
 	&:hover {
 		color:#333;
+	}
 }
 span.banner-item {
 	font-family: var(--font-family-serif);
@@ -137,8 +138,6 @@ span.banner-item {
 	color: crimson;
 }
 	
-	/*color:var(--text-color-link);*/
-}
 nav ul {
 		padding-left: 0;
 		padding-top: 3rem;
@@ -165,6 +164,7 @@ nav a {
 }
 	
 /* MAIN */
+
 .title {
 	padding-bottom: 3rem;
 }
