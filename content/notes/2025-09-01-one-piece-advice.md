@@ -3,7 +3,7 @@ title = "One piece of advice"
 date = 2025-09-01
 draft = false
 [taxonomies]
-tags = ["Matthew Butterick", "typography"]
+tags = ["Matthew butterick", "typography"]
 +++
 
 If there’s one piece of advice I would give to anyone who writes – and that goes for most of us – it is that you should set aside five minutes of your time (okay, he says, ten) and read Matthew Butterick’s [Typography in ten minutes](https://practicaltypography.com/typography-in-ten-minutes.html). Here’s why:
