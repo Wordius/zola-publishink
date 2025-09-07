@@ -6,10 +6,6 @@ _This page was last updated on 31 August 2025_.
 
 No legalese here. I am not a solicitor (read lawyer), nor am I involved in the legal profession in any other way. 
 
-## Your data
-
-I tried to avoid using any Javascript at all, but this site serves up one piece of JS from Usermaven. User data protection is ensured through Usermaven’s stringent, [privacy-first policies](https://usermaven.com/privacy). The company uses cookie-less tracking to prioritise user privacy.
-
 ## Web fonts
 
 I use web fonts. All font files are served from this domain and there is no third party involved. If you have web fonts turned off, it does not load that stylesheet or the corresponding files, which should save you some bandwidth but not much. I think this site looks better with them, but you may see things differently.

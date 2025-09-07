@@ -101,6 +101,7 @@ blockquote {
 	padding: 1rem 0 2rem 1rem; 
 }
 blockquote p {
+	font-family: var(--font-italic);
 	font-size: 120%;
 }
 blockquote p:last-of-type {
