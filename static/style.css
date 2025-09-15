@@ -156,9 +156,9 @@ nav a {
 	border: none;
 	color: #333;
 	&:hover {
-		text-decoration: underline;
 		text-decoration-thickness: 3px;
-		text-decoration-style:wavy;
+		text-decoration-line: underline;
+		text-decoration-style: wavy;
 		text-decoration-color: #555555;
 		text-underline-offset: 0.6ex;
 	}
