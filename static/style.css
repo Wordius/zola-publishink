@@ -203,7 +203,9 @@ p, ul, ol {
 	padding-bottom: 3rem;
 	text-transform: capitalize;
 }
-
+.post-tags {
+	font-size: var(--pt-long-primer);
+}
 p a, ul a, ol a {
 	color: crimson;
 	text-decoration: none;
@@ -251,18 +253,18 @@ span[aria-hidden="true"] {
 	padding-bottom: 3rem;
 }
 
-sup a {
-	font-size: var(--pt-bourgeois);
-	font-family: var(--font-family-sans);
+.footnote-definition:first-of-type {
+	padding-top: 1rem;
 }
-.footnote-definition-label {
-	font-size: var(--pt-bourgeois);
-	font-family: var(--font-family-sans);
+.footnote-definition:last-of-type {
+	padding-bottom: 1rem;
 }
-.footnote-definition-label sup a, .footnote-definition p {
+
+.footnote-definition-label, .footnote-definition p  {
 	font-size: var(--pt-bourgeois);
 	font-family: var(--font-family-sans);
 	display: inline;
+	line-height: 1.2;
 }
 
 /* FOOTER */

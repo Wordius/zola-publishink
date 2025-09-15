@@ -26,6 +26,6 @@ But, guess what? Still, all this site comprises is a bunch of html files (a few 
 
 So, has the web changed? No, it hasn’t.
 
-[^1]: While this site has never had a blog element, I’ve been getting my writing fix over on [Wordius.com](https://wordius.com) since 2012.
+[^1]: This site may never had a blog element, but I’ve been writing at [wordius.com](https://wordius.com) since 2012.
 [^2]: I’ve been using [Obsidian](https://obsidian.md), a markdown editor, since 2022 when version 1.0.0 was released. I’ve been writing in markdown since 2007.
 [^3]: Static site generators use text input files to generate static web pages. Unlike dynamic websites – WordPress, etc. – these static pages do not change based on the request. This simplifies backend and allows the site to be distributed via content delivery networks. The simple design also protects the site, making it harder for attackers to modify the website due to the smaller attack surface of these relatively simple backends. Some of the most popular static site generators are Jekyll, Hugo, Eleventy, Gatsby, and Next.
