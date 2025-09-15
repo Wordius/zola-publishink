@@ -5,7 +5,10 @@ date = 2025-09-15
 tags = ["web", "zola", "obsidian"]
 +++
 
-{{ image(path="img/original-next-computer.webp", caption="This [NeXT Computer](https://en.wikipedia.org/wiki/NeXT_Computer "NeXT Computer") was used by Berners-Lee at CERN and became the world’s first web server. Photo: [Coolcaesar at the English-language Wikipedia, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=395096)") }}
+<figure>
+    <img src="/img/original-next-computer.webp" alt="The NeXT computer used by Berners-Lee">
+    <figcaption>This <a href="https://en.wikipedia.org/wiki/NeXT_Computer">NeXT Computer</a> was used by Berners-Lee at CERN and became the world’s first web server. Photo: <a href="https://commons.wikimedia.org/w/index.php?curid=395096">Coolcaesar at the English-language Wikipedia, CC BY-SA 3.0</a></figcaption>
+</figure>
 
 [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) and Norwegian [Håkon Wium Lie](https://en.wikipedia.org/wiki/Håkon_Wium_Lie) (alongside [Bert Bos](https://en.wikipedia.org/wiki/Bert_Bos)), laid the bricks and mortar of the World Wide Web back in 1991 and 1994, respectively, when they drew up their specifications for html and CSS. And, like a sturdy old Victorian house, the web has stood the test of time.
 

@@ -251,6 +251,20 @@ span[aria-hidden="true"] {
 	padding-bottom: 3rem;
 }
 
+sup a {
+	font-size: var(--pt-bourgeois);
+	font-family: var(--font-family-sans);
+}
+.footnote-definition-label {
+	font-size: var(--pt-bourgeois);
+	font-family: var(--font-family-sans);
+}
+.footnote-definition-label sup a, .footnote-definition p {
+	font-size: var(--pt-bourgeois);
+	font-family: var(--font-family-sans);
+	display: inline;
+}
+
 /* FOOTER */
 
 footer p {
@@ -288,6 +302,9 @@ ul.social li {
 img {
 	max-inline-size: 100%;
 	height: auto;
+}
+figure {
+	padding: 0 0 2rem 0;
 }
 figcaption {
 	font-family: var(--font-family-sans);
