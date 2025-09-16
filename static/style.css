@@ -187,7 +187,9 @@ nav a {
 	font-family: var(--font-family-sans);
 	padding: 3rem 0;
 }
-
+.post-nav-dir, .next, .previous {
+	font-size: var(--pt-long-primer);
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-serif);
 }
