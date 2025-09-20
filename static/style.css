@@ -167,8 +167,9 @@ nav a {
 /* MAIN */
 
 .title {
-	padding-bottom: 3rem;
+	padding-bottom: 1rem;
 }
+
 .postlist-header {
 	padding-bottom: 3rem;
 }
@@ -243,6 +244,11 @@ h2.postlist-title {
 	padding-top: 1rem;
 	margin-top: 0;
 }
+.page-description, .section-description {
+	font-family: var(--font-family-sans);
+	margin-bottom: 3rem;
+	line-height: 1.3;
+}
 a.post-tag {
 	color: crimson;
 }
@@ -262,11 +268,38 @@ span[aria-hidden="true"] {
 	padding-bottom: 1rem;
 }
 
-.footnote-definition-label, .footnote-definition p  {
+.footnote-definition-label, .footnote-definition p {
 	font-size: var(--pt-bourgeois);
-	font-family: var(--font-family-sans);
+	font-family: var(--font-family-sans);	
+}
+.footnote-definition > p  {
 	display: inline;
-	line-height: 1.2;
+	line-height: 1.3;
+}
+        /* Style for the table */
+table {
+	font-family: var(--font-family-sans);
+	font-size: var(--pt-long-primer);
+	margin: 3rem 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+/* Header styling */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+/* Color the rows
+tr:nth-child(1) {
+    background-color: #cfe2f3;
+}*/
+tr:hover {
+    background-color: #ddd;
 }
 
 /* FOOTER */

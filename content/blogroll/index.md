@@ -1,5 +1,6 @@
 +++
 title = "Blogroll"
+description = "A list of my favourite blogs"
 +++
 
 Interesting blogs (to me anyway):
