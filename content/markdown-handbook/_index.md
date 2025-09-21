@@ -7,14 +7,10 @@ sort_by = "weight"
 draft = false
 +++
 
-- [[Start here]]
-  - [[History]]
-  - [[Where is it used]]
-  - [[How is it used]]
 - [Cheatsheet](/markdown-handbook/cheat-sheet)
 - [Extended syntax](/markdown-handbook/extended-syntax)
 - [Editors](/markdown-handbook/markdown-editors)
-- [Markdown is expanding]
+- [Flavours](markdown-handbook/flavours)
 
 Markdown is a lightweight mark-up language. It is used by writers, bloggers, mathematicians, scientists, project managers, task managers, and journal keepers.
 

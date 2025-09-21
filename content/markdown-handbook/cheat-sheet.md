@@ -1,7 +1,6 @@
 +++
 title = "Cheat sheet for markdown"
 description = "You’re not under test conditions here, so relax. In programming a cheat sheet is a document that summarises important information, such as syntax and commands for a specific programming language"
-slug = "cheat-sheet"
 weight = 200
 +++
 

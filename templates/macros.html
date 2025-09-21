@@ -1,0 +1,24 @@
+{# ================== #}
+{# === breadcrumb === #}
+{# ================== #}
+{% macro breadcrumb(path) %}
+{% set cur = "/" %}
+{% for elt in path %}
+    {% set_global cur = cur ~ elt ~ "/" %}
+    / <a href="{{cur}}">{{ elt }}</a>
+{% endfor %}
+{%- endmacro %}
+
+{# === sub pages and sub section === #}
+{% macro sub(section) %}
+<span class="breadcrumb-next">content <i class="fa fa-caret-down"></i>
+<ul>
+    {% for section in section.subsections %}
+    {% set section = get_section(path=section, metadata_only=true) %}
+    <li><i class="fa fa-folder"></i> <a href="{{ section.permalink }}">{{ section.title }}</a></li>
+    {% endfor %}
+    {% for page in section.pages %}
+    <li><i class="fa fa-file-o"></i> <a href="{{ page.permalink }}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul></span>
+{%- endmacro %}
