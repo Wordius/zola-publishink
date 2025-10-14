@@ -20,6 +20,15 @@
 
   <link rel="me" href="https://mastodon.social/@wordius">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF9TB7Q1H8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CF9TB7Q1H8');
+  </script>
 </head>
 
 <body>
@@ -27,12 +36,12 @@
   <header>
       <a class="banner" href="/" class="home-link">publishink<span class="banner-item">.</span></a>
 
-      <nav role="navigation">
+      <nav class="nav" role="navigation">
         <ul role="list">
-          <li class="nav-item"><a href="/">Home</a></li>
-          <li class="nav-item"><a href="/notes">Blog</a></li>
-          <li class="nav-item"><a href="/about">About</a></li>
-          <li class="nav-item"><a href="/contact">Contact</a></li>
+          <li class="nav-item box"><a href="/">Home</a></li>
+          <li class="nav-item box"><a href="/notes">Blog</a></li>
+          <li class="nav-item box"><a href="/about">About</a></li>
+          <li class="nav-item box"><a href="/contact">Contact</a></li>
         </ul>
       </nav>
   </header>
@@ -40,7 +49,7 @@
   <main>
     {% block breadcrumb %}
     {% endblock breadcrumb %}
-    
+
     {% block content %}
     {% endblock %}
   </main>

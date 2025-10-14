@@ -27,6 +27,34 @@
       font-style: italic;
      font-weight: 700;
    }
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Regular.ttf') format('woff2'),
+          url('/fonts/Fontin-Regular.ttf') format('woff');
+      font-style: normal;
+     font-weight: 400;
+   }
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Italic.ttf') format('woff2'),
+          url('/fonts/Fontin-Italic.ttf') format('woff');
+      font-style: italic;
+     font-weight: 400;
+   }
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Bold.ttf') format('woff2'),
+          url('/fonts/Fontin-Bold.ttf') format('woff');
+      font-style: bold;
+     font-weight: 700;
+   }
+   /*@font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-SmallCaps.ttf') format('woff2'),
+          url('/fonts/Fontin-SmallCaps.ttf') format('woff');
+     font-variant-caps: small-caps;
+     font-weight: 400;
+    }*/
 
   @font-face {
     font-family: IM Fell;
