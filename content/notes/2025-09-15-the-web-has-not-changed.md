@@ -20,9 +20,9 @@ Don’t get me wrong, there have been a couple of times over the years when I’
 
 Then around 2018 I discovered SSGs, or static site generators[^1]. Using an SSG allowed me to keep my site simple, without all the bloat and overhead that comes with a WordPress installation. That makes this site quicker to load, among other things. Better still, [Zola](https://getzola.org), the SSG I settled on, allows me to write all the pages and posts in [Markdown](https://en.wikipedia.org/wiki/Markdown),[^2] an easy-to-read and easy-to-write plaintext format that I’ve been using since the late Noughties.
 
-So, in the past couple of months I decided to add a blog[^3] and a few more pages, not because work wasn’t going well, but because I had something to say.  
+So, in the past couple of months I decided to add a blog[^3] and a few more pages, not because work wasn’t going well, but because I felt as though I had something to say.  
 
-But, guess what? Still, all this site comprises is a bunch of html files (a few more than my original) and a CSS file dumped in a folder and uploaded to the host.
+But, guess what? Still, all this site comprises is a bunch of html files – albeit a few more than originally planned – and a CSS file dumped in a folder and uploaded to the host.
 
 So, has the web changed? No, it hasn’t.
 
